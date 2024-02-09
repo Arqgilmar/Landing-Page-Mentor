@@ -1,0 +1,64 @@
+@media (max-width: 1200px) {
+    body {
+        background: url(../images/bg-mobile.svg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .cabecalho {
+        width: 53%;
+        height: 21%;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    main img {
+        margin-top: 6%;
+        margin-left: -1%;
+        width: 78.5vw;
+    }
+
+    .container-textos {
+        margin-top: 20%;
+        margin-left: -4%;
+        align-items: center;
+    }
+
+    .titulo {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .texto {
+        font-size: 2rem;
+        padding-top: 4.5%;
+        margin-left: .5%;
+        text-align: center;
+    }
+
+    .btn {
+        margin: 9% 0;
+        padding: 4% 22%;
+        border-radius: 50px;
+    }
+
+    .rodape {
+        align-items: center;
+        justify-content: center;
+        gap: 1.4rem;
+        margin-right: 0;
+    }
+
+    .fa-brands {
+        font-size: 2rem;
+        padding: .6rem;
+        margin: 9.2% 0;
+    }
+
+    .fa-facebook-f {
+        width: 2rem;
+        height: 2rem;
+        text-align: center;
+    }
+}

@@ -1,0 +1,7 @@
+:root {
+    --fonte-principal: 'Open sans', sans-serif;
+    --fonte-secundaria: 'Poppins', sans-serif;
+
+    --cor-principal: hsl(257, 40%, 49%);
+    --cor-secundaria: hsl(300, 69%, 71%);
+}
